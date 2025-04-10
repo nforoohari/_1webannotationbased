@@ -6,12 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/*@Controller
-@ResponseBody*/
+//@Controller
+//@ResponseBody
 @RestController
-@RequestMapping("/c11")
+@RequestMapping("/11")
 public class C11RestController {
-
 
     @GetMapping("/m1")
     public String m1()
